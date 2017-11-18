@@ -1,0 +1,27 @@
+/**
+Write a function to return a string after removing all vowels from a string passed
+to the function as parameter.
+
+**/
+
+
+
+#include <stdio.h>
+
+char *removeVowels(char *str)
+{
+    //write your code here
+}
+ 
+// Driver code
+int main()
+{
+   char str[1000], *res;
+   printf("Enter the string : ");
+   scanf("%[^\n]s", str);
+   res = removeVowels(str);
+   printf("\nAfter removing vowels: %s", res);
+    
+ 
+    return 0;
+}

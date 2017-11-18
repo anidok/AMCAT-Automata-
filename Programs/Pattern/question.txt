@@ -1,0 +1,33 @@
+/**
+ write a function to print the following pattern.
+
+2
+33
+444
+5555
+5555
+444
+33
+2
+
+where a =2 &amp; b=4
+
+**/
+
+
+
+#include <stdio.h>
+
+void Pattern (int a, int b){
+    //write your code here
+}
+
+int main() {
+	int a, b;
+	printf("Enter a : ");
+	scanf("%d", &a);
+	printf("\nEnter b : ");
+	scanf("%d", &b);
+	Pattern(a,b);
+	return 0;
+}

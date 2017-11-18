@@ -1,0 +1,38 @@
+/**
+Write a function to return a sorted array 
+after merging two unsorted
+arrays, the parameters will be two integer pointers
+for referencing arrays and two 
+int variable, the length of arrays
+
+**/
+
+
+
+#include <stdio.h>
+
+
+int* sortedMerge(int *a, int *b, int n, int m)
+{
+    //write your code here
+}
+ 
+// Driver code
+int main()
+{
+    int a[] = { 10, 5, 15 };
+    int b[] = { 20, 3, 2, 12 };
+    int n = sizeof(a) / sizeof(a[0]);
+    int m = sizeof(b) / sizeof(b[0]);
+ 
+    // Final merge list
+    int *res;
+    res = sortedMerge(a, b, n, m);
+ 
+    printf("Sorted merged list :");
+    for (int i = 0; i < n + m; i++)
+        printf("%d ", res[i]);
+    
+ 
+    return 0;
+}
